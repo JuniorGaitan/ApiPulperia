@@ -5,14 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Marca extends Model
+class Categorya extends Model
 {
     use HasFactory;
 
     //Definiendo la tabla del modelo
-    protected $table = 'marcas';
+    protected $table = 'categorias';
 
     //Definiendo los campos de la tabla
-    protected $fillable = ['marca'];
+    protected $fillable = ['categoria'];
     
 }
